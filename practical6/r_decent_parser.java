@@ -70,8 +70,8 @@ public class r_decent_parser{
     {
         String grammar[][] = {
             {"S","(L)","a"},
-            {"L","SD",""},
-            {"D",",SD","@"}
+            {"L","SM",""},
+            {"M",",SM","@"}
         };
 
             String input = "(a,a),a";
